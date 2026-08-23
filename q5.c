@@ -7,6 +7,6 @@ main() {
 
     fahrenheit = (celsius * 9 / 5) + 32;
 
-    printf("Fahrenheit=%.0f", fahrenheit);
+    printf("Fahrenheit=%.20f", fahrenheit);
 
 }
