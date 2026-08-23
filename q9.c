@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+main() {
     float p, r, t, si, ci;
 
     scanf("%f %f %f", &p, &r, &t);
@@ -12,5 +12,4 @@ int main() {
     printf("Simple Interest = %.2f\n", si);
     printf("Compound Interest = %.2f", ci);
 
-    return 0;
 }
